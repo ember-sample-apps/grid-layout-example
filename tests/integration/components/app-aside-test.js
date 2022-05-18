@@ -12,15 +12,6 @@ module('Integration | Component | app-aside', function (hooks) {
 
     await render(hbs`<AppAside />`);
 
-    assert.dom(this.element).hasText('');
-
-    // Template block usage:
-    await render(hbs`
-      <AppAside>
-        template block text
-      </AppAside>
-    `);
-
-    assert.dom(this.element).hasText('template block text');
+    assert.dom(this.element).hasText('⋇Overview ⋇Vital Statistics');
   });
 });
