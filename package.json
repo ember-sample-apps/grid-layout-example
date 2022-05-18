@@ -2,10 +2,10 @@
   "name": "grid-layout-example",
   "version": "0.0.0",
   "private": true,
-  "description": "Small description for grid-layout-example goes here",
-  "repository": "",
+  "description": "An Example Ember App using Grid CSS and Grid Areas",
+  "repository": "https://github.com/ember-sample-apps/grid-layout-example",
   "license": "MIT",
-  "author": "",
+  "author": "Melanie Sumner <melaniersumner@gmail.com>",
   "directories": {
     "doc": "doc",
     "test": "tests"

@@ -1,0 +1,7 @@
+<aside>
+  <ul>
+    {{#each this.sections as | section |}}
+      <li><a href="{{this.currentRouteUrl}}{{section.fragment}}"><span aria-hidden="true">&divonx;</span>{{section.title}}</a></li>
+    {{/each}}
+  </ul>
+</aside>
